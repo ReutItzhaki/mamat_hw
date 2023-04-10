@@ -1,0 +1,3 @@
+1) we think it would take us two days.
+2) we can use bash script in order to optimize searches and more activities. for axample, we can make a script that looks for a certain product in few websites that sells it, and compare different qualities such as delivery times, prices and more.
+3) in order to run the script every hour we can use date/time commands with a suitable condition that checks only the articles that was created in the past hour and adds them to the end of the result file.
