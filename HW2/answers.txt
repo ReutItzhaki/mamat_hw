@@ -1,0 +1,9 @@
+1. we used the same code section of validity check in all of the programs.
+we could have narrow it down by writing this code in the bash script once instead of writing it in each program, or instead writing this code sucction in a function that is saved in a library and the other function can call to.
+
+2. A continuous uniform distribution is a  distribution where every value within a specified interval has an equal probability of occurring. In other words, it is a probability distribution where the probability density function is constant over the entire range of possible values.
+after running on random grades, we observed that the grades are not in a continuous uniform distribution.
+ when running the hist program with the grades we get each time
+ from the command, the grades are not evenly divided between the bins,
+especially when taking small number of grades.
+when we're taking a bigger number of grades, the distribution is getting more even.
