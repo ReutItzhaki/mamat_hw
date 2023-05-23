@@ -19,10 +19,10 @@ fi
 
 ./hist/hist.exe -n_bins 10 "$1.txt" > $1_stat/histogram.txt
 
-the_mean=$(./mean/mean.exe "$1.txt")
-the_median=$(./median/median.exe "$1.txt")
-the_min=$(./min/min.exe "$1.txt")
-the_max=$(./max/max.exe "$1.txt")
+the_mean=$(./mean.exe "$1.txt")
+the_median=$(./median.exe "$1.txt")
+the_min=$(./min.exe "$1.txt")
+the_max=$(./max.exe "$1.txt")
 
 the_grades=$(./hist/hist.exe -n_bins 100 "$1.txt")
 
