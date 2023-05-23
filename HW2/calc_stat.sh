@@ -17,7 +17,7 @@ else
 	mkdir $1_stat
 fi
 
-./hist/hist.exe -n_bins 10 "$1.txt" > $1_stat/histogram.txt
+./hist.exe -n_bins 10 "$1.txt" > $1_stat/histogram.txt
 
 the_mean=$(./mean.exe "$1.txt")
 the_median=$(./median.exe "$1.txt")
