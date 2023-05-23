@@ -46,7 +46,11 @@ done
 
 (( count_all=count_fail+count_succ ))
 (( pass_perc= count_succ*100 ))
-(( pass_perc= pass_perc / count_all ))
+if (( count_all!=0 )); then
+	(( pass_perc= pass_perc / count_all ))
+else
+	(( pass_perc=0 ))
+fi
 echo -e "$the_mean\t$the_median\t$the_min\t$the_max\t$pass_perc%" > $1_stat/statistics.txt
 
 
