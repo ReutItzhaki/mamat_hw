@@ -101,6 +101,7 @@ int main(int argc, char **argv) {
 
 	operate(bins);
 	free(bins);
+	fclose(f);
 
 	return 0;
 }
