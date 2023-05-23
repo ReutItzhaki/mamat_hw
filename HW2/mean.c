@@ -65,6 +65,7 @@ int main(int argc, char **argv) {
 	}
 
 	operate(f);
+	fclose(f);
 
 	return 0;
 }
