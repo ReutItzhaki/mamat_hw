@@ -24,7 +24,7 @@ the_median=$(./median.exe "$1.txt")
 the_min=$(./min.exe "$1.txt")
 the_max=$(./max.exe "$1.txt")
 
-the_grades=$(./hist/hist.exe -n_bins 100 "$1.txt")
+the_grades=$(./hist.exe -n_bins 100 "$1.txt")
 
 (( count_fail=0 ))
 
