@@ -119,7 +119,7 @@
      }
     
      student_destroy(my_student);
-     output=(void)new_student;
+     *output=(void*)new_student;
      return SUCCESS;
  }
 
